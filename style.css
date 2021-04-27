@@ -7,6 +7,43 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%
+}
+
+main {
+  background-color:  hsl(0deg, 0%, 60%);
+  border-top: 5px solid hsl(0deg, 0%, 50%) ;
+  height:100%
 }
 
 /* Add styles here! */
+
+strong {
+  color : hsl(160deg, 100%, 30%)
+}
+
+.max-width-wrapper { 
+  max-width : 500px
+}
+
+.intro-chunk { 
+  margin: 50px 0px;
+}
+
+.card {
+  /* padding-top: 10px; */
+  background-color: hsl(0deg, 0%, 100%);
+  padding : 5px 0px 15px 10px;
+  margin: 40px;
+  border-bottom: 5px solid hsl(0deg, 0%, 50%) ;
+}
+
+.indented-heading { 
+  max-width: max-content;
+  margin-left: -30px;
+  margin-top: 2px;
+  padding: 15px;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 5px solid hsl(45deg, 100%, 40%);
+}
+
